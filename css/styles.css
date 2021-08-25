@@ -10,7 +10,7 @@
     /*Home  Features About Us*/
     --headline1: 800 40px/ normal var(--fontBase);
     /*About us (create interactive prototypes subtitle)*/
-    --headline2: 500 32px/ normal var(--fontBase);
+    --headline2: 500 32px/ normal var(--fontSecond);
     /*Features (Business consulting subtitle)*/
     --headline3: 500 25px/ normal var(--fontBase);
     /*Logo Landerz*/
@@ -21,6 +21,9 @@
     --headline6: 50 25px/normal var(--fontSecond);
     --paragraph: 300 20px/ normal var(--fontBase);
 
+    --aquaMarine:#00D2B5;
+    --darkGray:#6D767E;
+    --lightGray:#F6F6F6;
     --white:#FFFFFF;
     --black:#000000;
 }
