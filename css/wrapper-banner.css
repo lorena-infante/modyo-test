@@ -1,0 +1,7 @@
+.wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+.text-wrapper-banner p{
+    color:var(--darkGray);
+  }

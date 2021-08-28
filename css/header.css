@@ -1,0 +1,29 @@
+
+/*Punto logo*/
+.header-content > h4:nth-child(1) > span:nth-child(1) {
+    color: var(--aquaMarine);
+  }
+   
+  .header-content {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu-img {
+    align-self: center;
+    display: flex;
+  }
+  
+  .menu > ul:nth-child(2) {
+    display: none;
+  }
+  
+  .header-content > h4 {
+    padding-left: 15px;
+  }
+  

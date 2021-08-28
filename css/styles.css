@@ -1,5 +1,6 @@
-@import "../fonts/flaticon/font/flaticon.css";
-@import "../fonts/icomoon/style.css";
+@import "./header.css";
+@import "./wrapper-banner.css";
+
 
 
 :root{
@@ -7,19 +8,19 @@
     --fontSecond:'Nunito Sans', sans-serif;
 
     /*font-weight font-size/line-height font-family*/
-    /*Home  Features About Us*/
-    --headline1: 800 40px/ normal var(--fontBase);
+    /*Main titles*/
+    --headline1: 800 33px/ normal var(--fontBase);
     /*About us (create interactive prototypes subtitle)*/
     --headline2: 500 32px/ normal var(--fontSecond);
     /*Features (Business consulting subtitle)*/
     --headline3: 500 25px/ normal var(--fontBase);
     /*Logo Landerz*/
-    --headline4: 500 35px/normal var(--fontBase);
+    --headline4: 600 35px/normal var(--fontBase);
     /*Testimonials italic text*/
     --headline5: italic 25px/normal var(--fontBase);
     /*NavBar text*/
     --headline6: 50 25px/normal var(--fontSecond);
-    --paragraph: 300 20px/ normal var(--fontBase);
+    --paragraph: 400 15px/ normal var(--fontBase);
 
     --aquaMarine:#00D2B5;
     --darkGray:#6D767E;
