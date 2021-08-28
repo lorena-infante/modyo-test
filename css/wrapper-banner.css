@@ -2,6 +2,11 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  .banner{
+    display: flex;
+    flex-direction: column;
+}
 .text-wrapper-banner p{
     color:var(--darkGray);
   }

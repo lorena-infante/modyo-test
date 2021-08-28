@@ -1,0 +1,12 @@
+.button {
+        background-color: var(--aquaMarine);
+        border: none;
+        border-radius: 20px;
+        font: var(--paragraph);
+        color: var(--white);
+        padding: 10px;padding: 13px;
+        margin-bottom: 30px;
+        width: 120px;
+        margin-top: 30px;
+}
+   
