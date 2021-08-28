@@ -1,6 +1,7 @@
 @import "./header.css";
 @import "./wrapper-banner.css";
 @import "./buttons.css";
+@import "./features.css";
 
 
 
@@ -14,14 +15,14 @@
     /*About us (create interactive prototypes subtitle)*/
     --headline2: 500 32px/ normal var(--fontSecond);
     /*Features (Business consulting subtitle)*/
-    --headline3: 500 25px/ normal var(--fontBase);
+    --headline3: 600 20px/ normal var(--fontBase);
     /*Logo Landerz*/
     --headline4: 600 35px/normal var(--fontBase);
     /*Testimonials italic text*/
     --headline5: italic 25px/normal var(--fontBase);
     /*NavBar text*/
     --headline6: 50 25px/normal var(--fontSecond);
-    --paragraph: 400 15px/ normal var(--fontBase);
+    --paragraph: 500 15px/ normal var(--fontBase);
 
     --aquaMarine:#00D2B5;
     --darkGray:#6D767E;
@@ -55,4 +56,5 @@ body h6{
 }
 body p {
     font: var(--paragraph); 
+    color: var(--darkGray);
 }

@@ -1,0 +1,30 @@
+
+.wrapper-features {
+    background-color: var(--lightGray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+   
+.boxes-features {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 280px;
+  }
+  
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    padding: 10px;
+    text-align: center;
+    background-color: var(--white);
+    margin-bottom: 25px;
+
+  }
+
+  .box1 a, .box2 a, .box3 a, .box4 a,
+  .box5 a, .box6 a{
+    text-decoration: none;
+    font: var(--paragraph);
+    color: var(--aquaMarine);
+  }
