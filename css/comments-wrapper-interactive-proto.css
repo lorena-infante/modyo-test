@@ -1,0 +1,31 @@
+.comments-box{
+    margin-top: 15px;
+    background-color: var(--white);
+    box-shadow: inset 0 0 5px var(--darkGray);
+    border-radius: 4px;
+}
+.comments-box img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.header-commentsBox {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+.header-commentsBox h3{
+    font: 800 15px/ 0px var(--fontBase);
+  }  
+  
+.header-commentsBox p{
+    font: 400 15px/ 10px var(--fontBase);
+}
+
+.comments-box h5{
+    font: italic 15px/ normal var(--fontBase);
+    color: var(--darkGray);
+    padding: 0px 8px 10px 8px;    
+    text-align: center;
+    
+}

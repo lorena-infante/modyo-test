@@ -13,8 +13,8 @@
   flex-direction: column;
 }
 
-
 .group-check, .group-check1 {
   display: flex;
   gap: 8px;
 }
+
