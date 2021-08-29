@@ -7,6 +7,7 @@
 @import "./about-us.css";
 @import "./testimonials-wrapper.css";
 @import "./form.css";
+@import "./footer.css";
 
 :root{
     --fontBase:'Montserrat', sans-serif;
