@@ -1,0 +1,44 @@
+.wrapper-form {
+    background-color: var(--lightGray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 8px 0px 8px;
+   }
+
+#contact {
+    background-color: var(--white);
+    padding: 20px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+.form-content label{
+    font: 500 15px/ normal var(--fontBase);
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+}
+
+.form-content input{
+    padding: 5px;
+    margin: 8px;
+    font: var(--paragraph);
+}
+
+#form-message {
+    padding: 5px;
+    margin: 8px;
+    width: 219px;
+    height: 114px;
+    font: var(--paragraph);
+   }
+.form-content button {
+    margin:0px;
+}
