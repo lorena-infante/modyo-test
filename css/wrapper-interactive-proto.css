@@ -1,0 +1,20 @@
+.wrapper-interactive-proto{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-interactive-proto h1{
+    text-align: center;
+}
+
+
+.check-list {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.group-check, .group-check1 {
+  display: flex;
+  gap: 8px;
+}
