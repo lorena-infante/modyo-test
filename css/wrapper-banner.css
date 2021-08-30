@@ -13,3 +13,30 @@
 .text-wrapper-banner p{
     color:var(--darkGray);
   }
+
+  @media (min-width:768px){
+
+.banner {
+   flex-direction: row;
+   /* padding: 50px 0px 0px 50px; */
+   padding: 50px 0px 0px 100px;
+}
+
+.banner-img {
+  order: 2;
+}
+.banner-img img {
+  width:810px;
+  padding-left: 110px;
+}
+.text-wrapper-banner {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 160px 0;
+}
+
+.text-wrapper-banner h1{
+  margin-bottom: 0px;
+}
+  }
