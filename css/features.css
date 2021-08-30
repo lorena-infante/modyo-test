@@ -28,3 +28,12 @@
     font: var(--paragraph);
     color: var(--aquaMarine);
   }
+
+  @media (min-width:768px){
+    .boxes-features{
+      flex-direction: row;
+      padding: 60px;
+      gap: 30px;
+      width:auto;
+    }
+  }
