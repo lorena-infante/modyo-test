@@ -25,7 +25,7 @@
     /*Testimonials italic text*/
     --headline5: italic 25px/normal var(--fontBase);
     /*NavBar text*/
-    --headline6: 50 25px/normal var(--fontSecond);
+    --headline6: 600 20px/normal var(--fontSecond);
     --paragraph: 400 15px/ normal var(--fontBase);
 
     --aquaMarine:#00D2B5;
