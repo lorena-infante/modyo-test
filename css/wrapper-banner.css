@@ -7,6 +7,9 @@
     display: flex;
     flex-direction: column;
 }
+.banner-img img{
+  width:100%;
+}
 .text-wrapper-banner p{
     color:var(--darkGray);
   }
