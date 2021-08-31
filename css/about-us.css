@@ -28,6 +28,11 @@
           text-align: left;
           width: 30%;
      }
+
+     .wrapper-about > h1 {
+          padding-top: 25px;
+     }
+   
      .wrapper-about-text > h3 {
           width: 80%;
           padding-top: 20px;
