@@ -42,3 +42,29 @@
 .form-content button {
     margin:0px;
 }
+
+@media(min-width:768px){
+  #contact {
+    display: flex;
+    flex-direction: column;
+    }
+    #wrapper-name-last {
+      display: flex;
+      }
+    .wrapper-email-sub-msg {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    #form-message {
+      width:auto;
+      }
+    .form-content label{
+      color: var(--darkGray);
+    }
+    .form-content input textarea{
+      border: 1px solid var(--darkGray);
+      border-radius: 2px;
+    }
+
+}

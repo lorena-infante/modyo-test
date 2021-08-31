@@ -18,3 +18,16 @@
     margin-top: 0px;
     font: 600 15px/ normal var(--fontBase);
 }
+
+@media(min-width:768px){
+.testimonials-wrapper {
+        padding: 50px;
+        }
+.testimonials-wrapper > h5 {
+    width: 50%;
+  }  
+  .testimonials-wrapper > p {
+    color: var(--black);
+  }
+    
+}
