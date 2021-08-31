@@ -7,6 +7,9 @@
     text-align: center;
 }
 
+.wrapper-proto-text h1{
+  margin-top: 0px;
+}
 
 .check-list {
   display: flex;
@@ -18,3 +21,21 @@
   gap: 8px;
 }
 
+@media (min-width:768px){
+/* .wrapper-interactive-proto > h1:nth-child(1) { */
+
+.wrapper-proto-text {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-align: left;
+}
+.wrapper-proto-text h1{
+  margin-top: 60px;
+  text-align: left;
+}
+.wrapper-interactive-proto {
+    flex-direction: row; 
+}
+
+}
