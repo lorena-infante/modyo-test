@@ -1,9 +1,34 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials > h1 {
+  text-align: center;
+}
+
 .testimonials-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    border: 2px solid green;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow:hidden; 
    }
+
+ .testimonials{
+  /* position: absolute; */
+  left: 0px;
+  top: 0px;
+  /* opacity: 0; */
+  width: inherit;
+  height: inherit;
+  transition: opacity .5s;
+  background: #fff;
+} 
    
 .testimonials-wrapper img {
     border-radius: 50%;
