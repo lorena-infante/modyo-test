@@ -7,9 +7,19 @@ function getPosts(){
         return response.json();
     })
     .then(function(posts){
-        let post = posts[0].body;
-        const h5 = document.querySelector("#testim-usr1");
-        h5.innerHTML = `"${post}"`;
+        let post;
+        //brings all h5 titles inside testimonials-- as a NodeList
+        let h5 = document.querySelectorAll(".testimonials-->div>h5");
+        
+        for(let i=0; i<h5.length; i++){
+            post = posts[i].body; 
+            console.log(post);
+            h5[i].textContent = `"${post}"`;
+            console.log(h5);
+        }
+  /*         //test for the first element
+        let txt = document.querySelector("#testim-usr1"); 
+        txt.innerHTML= `"${post}"`; */
     })
     .catch(function(error){
         console.log("Error "+ `${error}`);
