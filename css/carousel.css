@@ -1,0 +1,10 @@
+.carousel__lista{
+    overflow:hidden;
+}
+.carousel__elemento{
+    text-align: center;
+}
+
+.glider-dot.active{
+    background: var(--aquaMarine);
+}

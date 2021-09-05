@@ -8,12 +8,12 @@
     <link rel="icon" type="image/png" href="./img/logoLanderz-01.png"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- glider-min -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <link rel="stylesheet" href="./css/styles.css">
-    
     <!-- cdn for glider.js (library for the slider on testimonies) -->
-   <!--  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
-    <script> new Glide('.glide').mount() </script> -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="js/glider-carousel.js" type="module"></script>
     <script src="js/app.js" type="module"></script>
 
     <title>Landerz</title>
@@ -249,6 +249,25 @@
                 </form>
             </div> <!-- end of wrapper-form -->
         </section><!-- end of form -->
+
+
+        <div class="carousel">
+            <div class="carousel__contenedor">
+                <div class="carousel__lista">
+                    <div class="carousel__elemento">1</div>
+                    <div class="carousel__elemento">2</div>
+                    <div class="carousel__elemento">3</div>
+                    <div class="carousel__elemento">4</div>
+                </div>
+            </div>
+            <div role ="tablist" class="carousel__indicadores">
+
+            </div>
+        </div>
+
+
+
+
         <footer class="footer">
             <p>Copyright &#169; 2021 All rights reserved</p>
         </footer>
