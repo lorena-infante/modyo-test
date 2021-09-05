@@ -13,13 +13,10 @@ function getPosts(){
         
         for(let i=0; i<h5.length; i++){
             post = posts[i].body; 
-            
+            //assigns as text content the results obtained on the for loop
             h5[i].textContent = `"${post}"`;
             
         }
-  /*         //test for the first element
-        let txt = document.querySelector("#testim-usr1"); 
-        txt.innerHTML= `"${post}"`; */
     })
     .catch(function(error){
         console.log("Error "+ `${error}`);
@@ -34,7 +31,7 @@ function getNames(){
     })
     .then(function(usrs){
         let usr;
-        //brings all h5 titles inside testimonials-- as a NodeList
+        
         let p = document.querySelectorAll(".testimonials-->div>p");
         
         
