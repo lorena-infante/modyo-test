@@ -8,9 +8,9 @@ function getPosts(){
     })
     .then(function(posts){
         let post;
-        //brings all h5 titles inside testimonials-- as a NodeList
-        let h5 = document.querySelectorAll(".testimonials-->div>h5");
-        
+        //brings all h5 titles inside carousel__elemento as a NodeList
+        let h5 = document.querySelectorAll(".carousel__elemento>h5");
+        console.log(h5);
         for(let i=0; i<h5.length; i++){
             post = posts[i].body; 
             //assigns as text content the results obtained on the for loop
@@ -31,9 +31,9 @@ function getNames(){
     })
     .then(function(usrs){
         let usr;
-        
-        let p = document.querySelectorAll(".testimonials-->div>p");
-        
+        //brings all the p elements on carousel__elemento
+        let p = document.querySelectorAll(".carousel__elemento>p");
+        console.log(p);
         
         for(let i=0; i<p.length; i++){
             usr = usrs[i].name; 

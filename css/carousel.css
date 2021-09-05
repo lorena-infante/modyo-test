@@ -1,5 +1,6 @@
 .carousel__lista{
     overflow:hidden;
+    text-align: center;
 }
 .carousel__elemento{
     text-align: center;
@@ -8,3 +9,21 @@
 .glider-dot.active{
     background: var(--aquaMarine);
 }
+
+
+div.carousel__elemento > img{
+    border-radius: 50%;
+  }
+  
+  
+div.carousel__elemento h5{
+    font-size: 15px;
+    color: var(--darkGray);
+  }
+
+  
+  div.carousel__elemento p{
+    margin-top: 0px;
+    font: 600 15px/ normal var(--fontBase);
+  }
+  
