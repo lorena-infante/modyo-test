@@ -17,13 +17,13 @@ For the "Testimonials" section I used the Api Fetch to bring the users and their
  Text: https://jsonplaceholder.typicode.com/posts
 
 
-## Desktop
+## Desktop Preview
 
-<img width="400px"  src="./mockups/fed-test-template.png" />
+<img width="700px"  src="./mockups/fed-test-template.png" />
 
-## Mobile
+## Mobile Preview
 
-<img width="200px" src="./mockups/mockup-mobile-Lorena-01.jpg" />
+<img width="360px" src="./mockups/mockup-mobile-Lorena-01.jpg" />
 
 ## Credits
 
