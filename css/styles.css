@@ -28,7 +28,8 @@
     /*NavBar text*/
     --headline6: 600 20px/normal var(--fontSecond);
     --paragraph: 400 15px/ normal var(--fontBase);
-
+    
+    /*Main Colors*/
     --aquaMarine:#00D2B5;
     --darkGray:#6D767E;
     --lightGray:#F6F6F6;
@@ -36,6 +37,7 @@
     --black:#000000;
 }
 
+/*Formatting Headings*/
 body{
     
     color:var(--black);

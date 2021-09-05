@@ -2,8 +2,10 @@
   display: flex;
   flex-direction: column;
 }
-
-/*container of the wrapper*/
+.testimonials > h1 {
+  text-align: center;
+}
+/* 
 .testimonials-- {
   display: flex;
   flex-direction: column;
@@ -15,9 +17,7 @@
   height: 270px;
 }
 
-.testimonials > h1 {
-  text-align: center;
-}
+
 
 .testimonials-wrapper {
     display: flex;
@@ -26,7 +26,7 @@
     text-align: center;
     position: relative;
     /* width: 100%;
-    height: 300px; */
+    height: 300px; 
     overflow:hidden; 
    }
 
@@ -72,13 +72,6 @@
  }
 
  
-/*  .dots-navigation > li:nth-child(1) {
-    color: var(--aquaMarine);
-    padding: 0px;
-    margin: 0px;
-    line-height: 15px;
- } */
- 
  
  .dots-navigation > li > a{
    text-decoration: none;
@@ -99,4 +92,4 @@
         color: var(--black);
       }
         
-}
+} */
