@@ -2,7 +2,7 @@
 
 This project assigned by Modyo has for an end to create a Landing Page using the different assets (given and not given) by the company to recreate a web and mobile version of a demo page.
 
-<b>This file should be opened from the code editor, otherwise Javascript files will not show up</b>
+<b>THIS FILE SHOULD BE OPENED FROM THE CODE EDITOR, OTHERWISE JAVASCRIPT FILES WILL NOT SHOW UP</b>
 
 ## Technologies and Extra features
 
