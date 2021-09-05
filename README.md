@@ -11,11 +11,13 @@ In order to give the Landing Page a more appealing look and feel, I added two ex
 The icons used for "Features" section were downloaded from freeepik.com and modified by me in Adobe Illustrator.
 
 Additionally, I have added more items to the given mockup mobile version on the png archive.
+
 ## API Fetch
 
 For the "Testimonials" section I used the Api Fetch to bring the users and their opinions from the API URL given by Modyo: 
- Users: https://jsonplaceholder.typicode.com/users,
- Text: https://jsonplaceholder.typicode.com/posts
+<a href="https://jsonplaceholder.typicode.com/users">Users</a>,
+<a href="https://jsonplaceholder.typicode.com/posts">Text</a>
+
 
 ** Posts and users showed are the first 4 objects of the JSON file obtailed by the API
 ## Carousel

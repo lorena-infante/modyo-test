@@ -4,7 +4,6 @@ window.addEventListener('load', function(){
     new Glider(document.querySelector('.carousel__lista'),{
         slidesToShow: 1,
         slidesToScroll: 4,
-        draggable: 'true',
         dots: '.carousel__indicadores'
     });
 })
