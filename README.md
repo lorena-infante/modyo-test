@@ -32,6 +32,17 @@ In order to make a responsive carousel/slider I used the <b>Glider.js<b> library
 
 <img width="360px" src="./mockups/mockup-mobile-Lorena-01.jpg" />
 
+## Screenshots of Testimonies
+<img width="700px" src="./screenshots/1st api_user_desktop.PNG"/>
+<img width="360px" src="./screenshots/1st api_user.PNG"/>
+<img width="700px" src="./screenshots/2nd api_user_desktop.PNG"/>
+<img width="360px" src="./screenshots/2nd api_user.PNG"/>
+<img width="700px" src="./screenshots/3rd api_user_desktop.PNG"/>
+<img width="360px" src="./screenshots/3rd api_user.PNG"/>
+<img width="700px" src="./screenshots/4th api_user_desktop.PNG"/>
+<img width="360px" src="./screenshots/4th api_user.PNG"/>
+
+
 ## Credits
 
 Landing Page implemented by Lorena Infante - September 2021
